@@ -1,0 +1,106 @@
+.container {
+  height: 1100px;
+  width: 1000px;
+  margin: 0 auto;
+}
+.row-first {
+  width: 950;
+  height: 40px;
+  background-color: blue;
+}
+
+#first-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 70%;
+  float: left;
+}
+
+#second-img {
+  height: 22px;
+  width: 65px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+#third-img {
+  height: 30px;
+  width: 90px;
+  float: right;
+  margin-left: 3px;
+  margin-top: 5px;
+}
+.row-second {
+  position: relative;
+  margin-top: 7%;
+}
+
+.row-second > p,
+h3 {
+  margin-right: 40%;
+}
+
+#fourth-img {
+  float: left;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 40px;
+  top: -30px;
+}
+#fifth-img {
+  width: 250px;
+  height: 150px;
+  margin-top: 32px;
+}
+
+#sixth-img {
+  height: 30px;
+  width: 30px;
+  float: left;
+  position: absolute;
+  right: 21%;
+  top: 35px;
+}
+
+.row-third {
+  position: relative;
+  margin-top: 20px;
+}
+.card-1 > h3,
+.card-2 > h3 {
+  font-weight: bolder;
+  font-size: x-large;
+}
+.card-2 > p {
+  margin-right: 30%;
+}
+
+.card-1 {
+  width: 300px;
+  height: 300px;
+  float: left;
+  position: absolute;
+  top: 10px;
+  right: 300px;
+  line-height: 18px;
+}
+
+.card-2 {
+  position: absolute;
+  left: 80%;
+  top: 5px;
+  width: 300px;
+  height: 150px;
+  /* left: 770px; */
+}
+
+@media screen and (max-width: 992px) {
+  .row-first {
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
